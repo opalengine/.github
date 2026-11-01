@@ -8,7 +8,7 @@ Report it privately with GitHub's private vulnerability reporting: open the affe
 **Security** tab and click **Report a vulnerability**. Only you and the maintainers see the report, and
 we can work on a fix with you in a private advisory.
 
-If a repository doesn't show that button, write to hello@opalengine.com with the repository name and
+If a repository doesn't show that button, write to security@opalengine.com with the repository name and
 ask for a private channel. Don't put the details in that first email.
 
 A useful report has the affected repository and version, what an attacker can do, and the steps to
