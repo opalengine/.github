@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Report a security vulnerability
+    url: https://github.com/opalengine/.github/blob/main/SECURITY.md
+    about: Report privately with GitHub's private vulnerability reporting. Never in a public issue.
+  - name: Ask a question
+    url: https://github.com/opalengine/.github/blob/main/SUPPORT.md
+    about: Questions and anything that isn't a bug or a feature request.

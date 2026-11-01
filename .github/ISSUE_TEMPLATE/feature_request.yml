@@ -1,0 +1,33 @@
+name: Feature request
+description: Propose a new feature or a change in behaviour.
+type: Feature
+body:
+  - type: markdown
+    attributes:
+      value: Give it a short, specific title. The goal and acceptance list below become the definition of done.
+  - type: textarea
+    id: goal
+    attributes:
+      label: Goal
+      description: One or two sentences on what should be possible once this is done, and for whom.
+      placeholder: Users can export a report as CSV from the command line.
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance
+      description: The checks that prove it's done. One per line, each starting with `- `. Three to six is ideal.
+      placeholder: |
+        - `report --csv` writes a CSV file with one row per entry
+        - The header row matches the column names in the table view
+        - An empty report writes only the header row
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Context
+      description: Why it matters, what you tried, related issues or links. Optional.
+    validations:
+      required: false
